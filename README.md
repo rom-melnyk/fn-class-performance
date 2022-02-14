@@ -1,0 +1,19 @@
+# Typescript function vs. class: performance test
+
+Both, function implementation and class return an object like this:
+```
+{
+    storage: Array<string>;    // of size controlled in `constants.ts`
+    doSomething(): void;       // shifts the `storage` circularly by one element
+}
+```
+
+The performance load is controlled by the `constants.ts`.
+
+Following options analyzed (see `npm run`):
+- run the TS code via `ts-node`,
+- compile TS → JS then run it via `node`,
+- compile TS into browser-friendly code (open [the page](http://localhost:8033/) and reveal the console via F12).
+
+## TLDR
+i7 ⨯ 16Gb + Node16 give pretty similar results for both unction implementation and classes.
