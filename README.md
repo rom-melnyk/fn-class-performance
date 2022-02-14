@@ -16,4 +16,4 @@ Following options analyzed (see `npm run`):
 - compile TS into browser-friendly code (open [the page](http://localhost:8033/) and reveal the console via F12).
 
 ## TLDR
-i7 ⨯ 16Gb + Node16 give pretty similar results for both unction implementation and classes.
+i7 ⨯ 16Gb + Node16 give **pretty similar results** for both function implementation and classes.
