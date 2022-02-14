@@ -1,8 +1,8 @@
 {
   "name": "prj",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TS function vs. class performance test",
+  "main": "src/index.ts",
   "scripts": {
     "run-node": "node -r ts-node/register src/index.ts",
     "run-node-compiled": "tsc -p . && node dist/index.js",
